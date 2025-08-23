@@ -41,7 +41,14 @@ Each module includes its own **self-contained testbench** for easier verificatio
   - `UART-Simple/uart_tb.sv` → for simple UART demo  
 
 ---
-##🔧 Schematic
+## 🔧 Schematic
+![image](https://github.com/SumitSengar47/UART-16550-sv/blob/761f03b2e0589e6330a806535ad0d1ce5eb8eb3f/uart_16550.png)
 
+---
 
+## 📌 Future Work
 
+- Add interrupt support (to fully match 16550 spec)
+- Extend verification with randomized testbenches
+- Provide integration example with RISC-V CPU
+- FPGA synthesis and hardware validation
