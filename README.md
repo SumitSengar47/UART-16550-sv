@@ -14,7 +14,6 @@ This implementation is the ideal starting point for understanding the fundamenta
 #### Block Diagram
 The simplified UART consists of just two main blocks: a transmitter that serializes parallel data and a receiver that deserializes incoming serial data.
 
-<!-- TODO: Add your simple UART block diagram image here -->
 ![Simple UART Block Diagram](https://vanhunteradams.com/Protocols/UART/uart_hardware.png)
 
 #### Features & Implementation Details
@@ -26,7 +25,7 @@ The simplified UART consists of just two main blocks: a transmitter that seriali
     -   `UART-Simple/uart_tb.sv`: A self-contained testbench to verify its operation.
 
 #### Simulation Waveform
-AThis waveform demonstrates the simple UART transmitting the ASCII character '7A' (`8'h7A`). You can see the parallel data `dintx[7:0]` being serialized on the `tx` line, framed by a start bit (low) and a stop bit (high).
+This waveform demonstrates the simple UART transmitting the ASCII character '7A' (`8'h7A`). You can see the parallel data `dintx[7:0]` being serialized on the `tx` line, framed by a start bit (low) and a stop bit (high).
 
 <!-- TODO: Add your simple UART simulation waveform image here -->
 ![Simple UART Waveform](https://github.com/SumitSengar47/UART-16550-sv/blob/744cc650a47d138f7389f1e4cabaabeeb48ebdf8/UART-Simple/simple_uart_tb.png)
@@ -56,8 +55,9 @@ The diagram below illustrates the architecture of the full 16550 UART, showing h
 #### Simulation Waveform
 This waveform shows a more complex transaction involving the 16550's register interface and FIFO buffers.
 
-<!-- TODO: Add your 16550 simulation waveform image here -->
-![UART 16550 Waveform](<path_to_your_16550_waveform.png>)
+![UART 16550 Waveform](https://github.com/SumitSengar47/UART-16550-sv/blob/b4e1e4fa8ea2ffae6c8cc47400d8509f0773c569/UART-16550/1_waveform.png)
+![image2](https://github.com/SumitSengar47/UART-16550-sv/blob/b4e1e4fa8ea2ffae6c8cc47400d8509f0773c569/UART-16550/2_waveform.png)
+![image3](https://github.com/SumitSengar47/UART-16550-sv/blob/b4e1e4fa8ea2ffae6c8cc47400d8509f0773c569/UART-16550/3_waveform.png)
 
 ---
 
